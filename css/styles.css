@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'BLOKKRegular';
+	margin-top: 3em;
+	background-image:url(../img/website-bottom.png);
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	background-size: 500px;
+}
+
+.top{
+	z-index:-10;
+}
+
+.fixed{
+	position:fixed;
+}
+
+.logo{
+	margin-left:-20%;
+}
+
+.writing{
+	margin:-5% 0 0 10%;
+}
+
+.alpha{
+	margin-left:0px;
+}
+
+button{
+	border:none;
+	margin: 0 0 10px 0;
+}
+
+.dropdown{
+	left: 2em;
+	padding-bottom: 250px;
+	top: 150px;
+}
+
+.dropdown-toggle{
+	font-size: 20px;
+	margin-left: 4em;
+}
+
+.menu{
+	width: 250px;
+}
+
+.modal{
+	background: none;
+	border:none;
+	box-shadow:none;
+}
+
+.modal p{
+	color:white;
+	font-weight:bold;
+	height: 100%;
+	bottom: 100px;
+}
+
+.modal .pic{
+	height: 100%;
+	width:100%;
+}
+
+.modal a{
+	text-decoration:none;
+	color: white;
+}
+
+/*.dropdown-menu{
+	margin-left: -19em;	
+	margin-top:15em;
+	text-align:center;
+	width: 240px;
+	z-index:-1;
+}*/
