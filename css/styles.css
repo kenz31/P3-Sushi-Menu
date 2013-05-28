@@ -3,19 +3,20 @@
 
 body{
 	font-family: 'BLOKKRegular';
-	margin-top: 3em;
+	margin-top: 2em;
 	background-image:url(../img/website-bottom.png);
 	background-repeat:no-repeat;
 	background-position: bottom right;
 	background-size: 500px;
 }
 
-.top{
+.fixed{
+	position:fixed;
 	z-index:-10;
 }
 
-.fixed{
-	position:fixed;
+.items{
+	margin-top:175px;
 }
 
 .logo{
@@ -36,18 +37,22 @@ button{
 }
 
 .dropdown{
-	left: 2em;
-	padding-bottom: 250px;
+	left: -2em;
 	top: 150px;
 }
 
-.dropdown-toggle{
+.dropdown-toggle:visited,.dropdown-toggle:link{
+	color: black;
 	font-size: 20px;
-	margin-left: 4em;
+	margin-left: 6em;
+	text-decoration: none;
 }
 
-.menu{
-	width: 250px;
+.dropdown-toggle:hover{
+	color: white;
+	background: black;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
 .modal{
@@ -56,11 +61,18 @@ button{
 	box-shadow:none;
 }
 
+.modal h1{
+	color: white;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
 .modal p{
 	color:white;
 	font-weight:bold;
 	height: 100%;
 	bottom: 100px;
+	margin-top: -20px;
 }
 
 .modal .pic{
@@ -73,10 +85,12 @@ button{
 	color: white;
 }
 
-/*.dropdown-menu{
-	margin-left: -19em;	
-	margin-top:15em;
-	text-align:center;
-	width: 240px;
-	z-index:-1;
-}*/
+.temp img{
+	border: 2px solid white;
+	height: 200px;
+	width: 200px;
+}
+
+.temp{
+	background:#333;
+}
