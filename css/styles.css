@@ -3,12 +3,6 @@
 
 body{
 	font-family: 'nunito','sans-serif';
-	background-image:url(../img/bg.jpg);
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position:center center;
-	min-height:1024px;
-	min-width:1024px;
 }
 
 .fixed{
