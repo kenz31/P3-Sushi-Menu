@@ -2,10 +2,11 @@
 <html>
   <head>
     <title>Sushi Menu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
     <link href="css/styles.css" rel="stylesheet" type="css/stylesheet">
     
   </head>
@@ -14,18 +15,18 @@
     
     	<div class="span4 fixed">
         	<img class="logo" src="img/logo.png"/>
-            <img class="writing" src="img/menu.jpg"/>
+            <img class="writing" src="img/menu.png"/>
         </div>
         
         <div class="span8 offset4 menu">
         	<div class="dropdown">
-            <a class="dropdown-toggle" id="all" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+            <a class="menuItems" id="all" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
                 All
               </a>
-              <a class="dropdown-toggle" id="spicy" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+              <a class="menuItems" id="spicy" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
                 Spicy
               </a>
-              <a class="dropdown-toggle" id="raw" role="button" data-toggle="dropdown" data-target="#" href="#raw">
+              <a class="menuItems" id="raw" role="button" data-toggle="dropdown" data-target="#" href="#raw">
                 Raw
               </a>
               
@@ -42,8 +43,8 @@
             <div class="span3">
                 <button class="temp roll3 normal"><img src="img/Kanki.jpg"/></button>
 			</div>
-            <div class="span3 alpha roll4 raw">
-                <button class="temp"><img src="img/banzai.jpg"/></button>
+            <div class="span3 alpha banzai">
+                <button class="temp roll4 raw"><img src="img/banzai.jpg"/></button>
             </div>
             <div class="span3">
                 <button class="temp roll5 raw"><img src="img/Scallop.jpg"/></button>
@@ -51,20 +52,20 @@
             <div class="span3">
                 <button class="temp roll6 spicy"><img src="img/tuna.jpg"/></button>
 			</div>
-            <div class="span3 alpha">
+            <div class="span3 alpha tuna">
                 <button class="temp roll7 spicy"><img src="img/Sheila.jpg"/></button>
             </div>
             <div class="span3">
                 <button class="temp roll8 spicy"><img src="img/volcano.jpg"/></button>
             </div>
-            <div class="span3">
+            <div class="span3 spider">
                 <button class="temp roll9 raw"><img src="img/spider.jpg"/></button>
        		</div>
    		</div>
         
         <footer class="span9 offset3">
         	<hr>
-        	<p>Store Location and Info</p>
+        	<p>Sushi Co <br>1234 E Club Court<br>Spokane, WA 99203<br>509-939-2444<br>sushico@sushi.com</p>
         </footer>
         
    		<div id="roll1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">  
@@ -152,9 +153,7 @@
             <p><a href="#" id="spiderRaw" data-placement="top" data-trigger="hover" data-toggle="tooltip" title="Spicy"><i class="icon-search icon-white icon-leaf"></i></a> <a href="#" id="spider" data-placement="top" data-trigger="hover" data-toggle="tooltip" title="$12.00">$</a></p>
 		</div>
 	</div><!---End of Container-->
-    
-	<script src="js/allofthelights.js"></script>
-    <script src="js/allofthelights.min.js"></script>
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>

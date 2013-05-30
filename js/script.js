@@ -79,21 +79,32 @@ $(document).ready(function(){
 	$('#spider').tooltip();
 		
 	$('#all').click(function(){
-		$(".spicy").show()
-		$(".normal").show()
-		$(".raw").show()
+		$(".raw").fadeOut('slow'),
+		$(".normal").fadeOut('slow'),
+		$(".spicy").fadeOut('slow'),
+		$('.spider').removeClass("alpha"),
+		$('.banzai').addClass('alpha');
+		$('.tuna').addClass('alpha')
+		$(".spicy").fadeIn('slow'),
+		$(".normal").fadeIn('slow'),
+		$(".raw").fadeIn('slow')
 		});
 		
 	$('#spicy').click(function(){
-		$(".raw").fadeOut('slow')
-		$(".normal").fadeOut('slow')
-		$(".spicy").show()
+		$(".raw").fadeOut('slow'),
+		$(".normal").fadeOut('slow'),
+		$(".spicy").fadeOut('slow'),
+		$(".spicy").fadeIn('slow'),
+		$('.tuna').removeClass('alpha')
 		});
 		
 	$('#raw').click(function(){
 		$(".spicy").fadeOut('slow'),
 		$(".normal").fadeOut('slow'),
-		$(".raw").show()
+		$(".raw").fadeOut('slow'),
+		$(".raw").fadeIn('slow'),
+		$('.spider').addClass("alpha"),
+		$('.banzai').removeClass('alpha');
 		});
 	
 });

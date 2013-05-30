@@ -2,12 +2,13 @@
 /* CSS Document */
 
 body{
-	font-family: 'BLOKKRegular';
-	margin-top: 2em;
-	background-image:url(../img/website-bottom.png);
+	font-family: 'nunito','sans-serif';
+	background-image:url(../img/bg.jpg);
 	background-repeat:no-repeat;
-	background-position: bottom right;
-	background-size: 500px;
+	background-size: cover;
+	background-position:center center;
+	min-height:1024px;
+	min-width:1024px;
 }
 
 .fixed{
@@ -16,7 +17,7 @@ body{
 }
 
 .items{
-	margin-top:175px;
+	margin-top:75px;
 }
 
 .logo{
@@ -38,21 +39,19 @@ button{
 
 .dropdown{
 	left: -2em;
-	top: 150px;
+	top: 50px;
 }
 
-.dropdown-toggle:visited,.dropdown-toggle:link{
+.menuItems:visited,.menuItems:link{
 	color: black;
-	font-size: 20px;
-	margin-left: 6em;
+	font-size: 30px;
+	margin-left: 3.5em;
 	text-decoration: none;
 }
 
-.dropdown-toggle:hover{
-	color: white;
-	background: black;
-	border-radius: 5px;
-	text-decoration: none;
+.menuItems:hover,.menuItems:active{
+	color: rgb(189,0,11);
+	border: none;
 }
 
 .modal{
@@ -94,3 +93,8 @@ button{
 .temp{
 	background:#333;
 }
+
+footer p{
+	font-weight: bold;
+}
+
